@@ -1,23 +1,23 @@
 {
-  "name": "grunt-iconizr",
+  "name": "grunt-iconizr-php",
   "description": "Grunt Plugin for iconizr",
   "version": "0.1.0",
-  "homepage": "https://github.com/haithembelhaj/grunt-iconizr",
+  "homepage": "https://github.com/haithembelhaj/grunt-iconizr-php",
   "author": {
     "name": "haithem bel haj",
     "email": "haythem.belhaj@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:haithembelhaj/grunt-iconizr.git"
+    "url": "git@github.com:haithembelhaj/grunt-iconizr-php.git"
   },
   "bugs": {
-    "url": "https://github.com/haithembelhaj/grunt-iconizr/issues"
+    "url": "https://github.com/haithembelhaj/grunt-iconizr-php/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/haithembelhaj/grunt-iconizr/blob/master/LICENSE-MIT"
+      "url": "https://github.com/haithembelhaj/grunt-iconizr-php/blob/master/LICENSE-MIT"
     }
   ],
   "engines": {
