@@ -26,7 +26,10 @@ module.exports = function(grunt) {
         childProcess,
         execOptions = {};
 
-    command += ' -dkv'
+    command += ' -dv'
+
+    command += ' -o '+ options.dest;
+    command += ' '+ options.src;
 
     if(options.sass){
       command += ' -s';
@@ -34,8 +37,8 @@ module.exports = function(grunt) {
       command += ' -c';
     }
 
-    command += ' -o '+ options.dest;
-    command += ' '+ options.src;
+    if(options.prefix !== undefined)
+      command += ' -p '+options.prefix
 
     options.cwd && (execOptions.cwd = options.cwd);
 
