@@ -14,7 +14,7 @@ module.exports = function(grunt) {
       log = grunt.log,
       f = require('util').format,
       verbose = grunt.verbose,
-      command = 'tasks/iconizr/iconizr.phps';
+      command = __dirname+'/iconizr/iconizr.phps';
 
   // Please see the Grunt documentation for more information regarding task
   // creation: http://gruntjs.com/creating-tasks
